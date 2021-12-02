@@ -1,0 +1,33 @@
+.mainDiv{
+    display:flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+  }
+ .widthOfDiv{
+    width:30%;
+  }
+  .container{
+      display: flex;
+  }
+
+  :root{
+      --textSize:24px;
+      --h3FontSize:36px;
+      --h2FontSize:48px;
+      
+  }
+  h2{
+      margin-left: 30px;
+      font-size: var(--h2FontSize);
+  }
+  h3{
+      font-size:var(--h3FontSize);
+      font-family: CircularXX;
+      font-weight: bold;
+  }
+  p{
+      font-size: var(--textSize);
+  }
+  footer{
+    font-size: var(--textSize);
+  }
